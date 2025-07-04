@@ -43,6 +43,30 @@ export default function Services() {
       description: "Robust backend solutions using Node.js, MongoDB, and APIs.",
       icon: "⚙️",
     },
+    {
+      title: "API Integration",
+      description:
+        "Seamless integration of third-party APIs and custom API development for enhanced functionality.",
+      icon: "🔗",
+    },
+    {
+      title: "AI Powered Web App",
+      description:
+        "Intelligent web applications powered by machine learning and AI technologies for smart user experiences.",
+      icon: "🚀",
+    },
+    {
+      title: "AI Agents",
+      description:
+        "Custom AI agents and autonomous systems designed to automate tasks and improve business efficiency.",
+      icon: "🤖",
+    },
+    {
+      title: "Figma Design",
+      description:
+        "Professional Figma design services from wireframes to high-fidelity prototypes and design systems.",
+      icon: "🎯",
+    },
   ];
 
   return (
@@ -182,7 +206,7 @@ export default function Services() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-full text-lg">
-                <Link to="/#contact">Get Started</Link>
+                <Link to="/contact">Get Started</Link>
               </Button>
               <Button
                 variant="outline"
