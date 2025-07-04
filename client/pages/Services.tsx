@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-import { Menu, X, ArrowRight } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 export default function Services() {
@@ -77,9 +77,11 @@ export default function Services() {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <Link to="/" className="flex items-center">
-              <div className="text-2xl font-bold text-black">
-                ree<span className="text-red-600">Coder</span>
-              </div>
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F7a7f75c4c22b44fc80c15dfc47e89c8f%2F5f1f96e74e1740ffbe09f7bb2c1f1fca?format=webp&width=800"
+                alt="reeCoder Logo"
+                className="h-10 w-auto"
+              />
             </Link>
 
             {/* Desktop Navigation */}
@@ -176,16 +178,9 @@ export default function Services() {
                   <h3 className="text-2xl font-semibold text-black mb-4">
                     {service.title}
                   </h3>
-                  <p className="text-gray-600 mb-6 leading-relaxed">
+                  <p className="text-gray-600 leading-relaxed">
                     {service.description}
                   </p>
-                  <Button
-                    variant="outline"
-                    className="border-red-600 text-red-600 hover:bg-red-50 rounded-full group"
-                  >
-                    Read More
-                    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                  </Button>
                 </CardContent>
               </Card>
             ))}
@@ -223,8 +218,12 @@ export default function Services() {
       <footer className="bg-black text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <Link to="/" className="text-2xl font-bold mb-4 inline-block">
-              ree<span className="text-red-600">Coder</span>
+            <Link to="/" className="mb-4 inline-block">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F7a7f75c4c22b44fc80c15dfc47e89c8f%2F5f1f96e74e1740ffbe09f7bb2c1f1fca?format=webp&width=800"
+                alt="reeCoder Logo"
+                className="h-8 w-auto"
+              />
             </Link>
             <p className="text-gray-400 mb-6">
               Web Development and AI Solutions
