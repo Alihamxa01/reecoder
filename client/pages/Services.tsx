@@ -90,21 +90,21 @@ export default function Services() {
               >
                 Home
               </Link>
-              <a
-                href="/#about"
+              <Link
+                to="/about"
                 className="text-black hover:text-red-600 transition-colors font-medium"
               >
                 About
-              </a>
+              </Link>
               <Link to="/services" className="text-red-600 font-medium">
                 Services
               </Link>
-              <a
-                href="/#contact"
+              <Link
+                to="/contact"
                 className="text-black hover:text-red-600 transition-colors font-medium"
               >
                 Contact
-              </a>
+              </Link>
             </nav>
 
             {/* Mobile menu button */}
@@ -126,21 +126,21 @@ export default function Services() {
                 >
                   Home
                 </Link>
-                <a
-                  href="/#about"
+                <Link
+                  to="/about"
                   className="text-black hover:text-red-600 transition-colors font-medium"
                 >
                   About
-                </a>
+                </Link>
                 <Link to="/services" className="text-red-600 font-medium">
                   Services
                 </Link>
-                <a
-                  href="/#contact"
+                <Link
+                  to="/contact"
                   className="text-black hover:text-red-600 transition-colors font-medium"
                 >
                   Contact
-                </a>
+                </Link>
               </nav>
             </div>
           )}
