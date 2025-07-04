@@ -16,7 +16,7 @@ export default function Index() {
             {/* Logo */}
             <div className="flex items-center">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F7a7f75c4c22b44fc80c15dfc47e89c8f%2F5f1f96e74e1740ffbe09f7bb2c1f1fca?format=webp&width=800"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7a7f75c4c22b44fc80c15dfc47e89c8f%2Ff0f21f47e116463d9a39a765818d9c9d?format=webp&width=800"
                 alt="reeCoder Logo"
                 className="h-32 w-auto"
               />
